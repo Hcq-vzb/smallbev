@@ -100,15 +100,15 @@
     },
     "/products": {
       "title": "Beverage Filling Machines | Water, Juice, Beer & Carbonated Drink Equipment",
-      "description": "Browse our complete range of beverage filling machines: water bottling lines, juice fillers, carbonated drink equipment, beer bottling machines, can filling lines and capping systems. 2000-20000 BPH capacity.",
-      "keywords": "water filling machine, juice filling machine, carbonated beverage filling machine, beer filling machine, can filling machine, PET bottle filler",
+      "description": "Browse water filling machines, juice bottling lines, carbonated drink fillers, beer bottling equipment, can filling lines, wine fillers and barreled water systems. Includes bottled water filling lines, craft beer fillers and PET bottle equipment. 2000-20000 BPH.",
+      "keywords": "water filling machine, juice bottling line, carbonated beverage filling machine, beer filling machine, can filling production line, wine filling machine, barreled water filling machine, PET bottle filler",
       "h1": "Beverage Filling Machines & Bottling Equipment",
       "jsonLdType": "CollectionPage"
     },
     "/solutions": {
       "title": "Turnkey Bottling Line Solutions | Complete Beverage Production Lines",
       "description": "Complete turnkey bottling line solutions for water, juice, carbonated beverages, beer, wine, oil and daily chemical products. Engineering design, installation and after-sales service included.",
-      "keywords": "turnkey bottling line, beverage production line solution, water filling production line, complete packaging line, factory engineering design",
+      "keywords": "turnkey bottling line solution, complete beverage production line, water treatment and filling system, packaging line integration, beverage production line solution, factory engineering design",
       "h1": "Complete Beverage Production Line Solutions",
       "jsonLdType": "CollectionPage"
     },

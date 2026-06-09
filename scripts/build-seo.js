@@ -100,15 +100,34 @@ function buildBreadcrumbs(route) {
   return items;
 }
 
+function clustersForRoute(route) {
+  const clusters = keywordPyramid.tier2_category.clusters;
+  if (route === '/products') return clusters.filter(c => c.page === '/products');
+  if (route === '/solutions') return clusters.filter(c => c.page === '/solutions');
+  return clusters;
+}
+
 function buildCrawlerContent(route, page) {
   const tier2Links = keywordPyramid.tier2_category.clusters
     .map(c => `<li><a href="${c.page}">${c.keyword}</a></li>`)
     .join('\n        ');
 
   const longtailList = keywordPyramid.tier3_longtail.keywords
-    .slice(0, 8)
     .map(k => `<li>${k}</li>`)
     .join('\n        ');
+
+  const relatedSections = clustersForRoute(route)
+    .filter(c => c.related && c.related.length)
+    .map(c => {
+      const relatedList = c.related.map(r => `<li>${r}</li>`).join('\n          ');
+      return `      <section aria-label="${c.keyword} related terms">
+        <h3>${c.keyword}</h3>
+        <ul>
+          ${relatedList}
+        </ul>
+      </section>`;
+    })
+    .join('\n');
 
   return `
   <div id="seo-content" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0" aria-hidden="true">
@@ -131,6 +150,10 @@ function buildCrawlerContent(route, page) {
       <section aria-label="Product categories">
         <h2>Beverage Filling Equipment Categories</h2>
         <ul>${tier2Links}</ul>
+      </section>
+      <section aria-label="Related equipment keywords">
+        <h2>Related Beverage Equipment Keywords</h2>
+${relatedSections}
       </section>
       <section aria-label="Popular models">
         <h2>Popular Bottling Line Models</h2>
@@ -214,6 +237,7 @@ function buildHtml(route, page) {
   <div id="root"></div>
   <script defer src="/bundle.js"></script>
   <script defer src="/seo-enhance.js"></script>
+  <script defer src="/chat-widget.js"></script>
   ${site.ga4Id && site.ga4Id !== 'G-XXXXXXXXXX' ? `
   <script async src="https://www.googletagmanager.com/gtag/js?id=${site.ga4Id}"></script>
   <script>

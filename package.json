@@ -4,6 +4,7 @@
   "description": "",
   "main": "bundle.js",
   "scripts": {
+    "dev": "node scripts/serve.js",
     "build:seo": "node scripts/build-seo.js",
     "compress:images": "node scripts/compress-images.js",
     "build:assets": "node scripts/create-assets.js",
