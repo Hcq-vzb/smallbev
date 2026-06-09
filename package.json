@@ -1,0 +1,27 @@
+{
+  "name": "smallbeverage-machinery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "build:seo": "node scripts/build-seo.js",
+    "compress:images": "node scripts/compress-images.js",
+    "build:assets": "node scripts/create-assets.js",
+    "build": "npm run build:seo && npm run build:assets && npm run compress:images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hcq-vzb/smallbeverage-machinery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hcq-vzb/smallbeverage-machinery/issues"
+  },
+  "homepage": "https://github.com/Hcq-vzb/smallbeverage-machinery#readme",
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

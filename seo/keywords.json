@@ -1,0 +1,144 @@
+{
+  "site": {
+    "name": "Small Beverage Machinery",
+    "url": "https://smallbeveragemachinery.com",
+    "locale": "en",
+    "company": "Suzhou KIWL Machine Co., Ltd.",
+    "email": "info@smallbeveragemachinery.com",
+    "phone": "+86-512-12345678",
+    "ga4Id": "G-XXXXXXXXXX"
+  },
+  "keywordPyramid": {
+    "tier1_pillar": {
+      "description": "Homepage pillar keywords - broad commercial intent, highest search volume",
+      "primary": "beverage filling machine",
+      "secondary": [
+        "bottling line equipment",
+        "small beverage machinery",
+        "beverage production line"
+      ],
+      "page": "/"
+    },
+    "tier2_category": {
+      "description": "Category cluster keywords - product/solution pages, medium competition",
+      "clusters": [
+        {
+          "keyword": "water filling machine",
+          "related": ["bottled water filling line", "pure water bottling equipment", "mineral water production line"],
+          "page": "/products",
+          "category": "water"
+        },
+        {
+          "keyword": "juice bottling line",
+          "related": ["juice filling machine", "tea beverage filling equipment", "fruit juice production line"],
+          "page": "/products",
+          "category": "juice"
+        },
+        {
+          "keyword": "carbonated beverage filling machine",
+          "related": ["CSD filling line", "soda bottling equipment", "soft drink production line"],
+          "page": "/products",
+          "category": "carbonated"
+        },
+        {
+          "keyword": "beer filling machine",
+          "related": ["beer bottling line", "craft beer filling equipment", "PET bottle beer filler"],
+          "page": "/products",
+          "category": "beer"
+        },
+        {
+          "keyword": "can filling production line",
+          "related": ["canning machine", "aluminum can filler", "beverage canning equipment"],
+          "page": "/products",
+          "category": "can"
+        },
+        {
+          "keyword": "wine filling machine",
+          "related": ["champagne filling line", "sparkling wine bottling", "liquor filling equipment"],
+          "page": "/products",
+          "category": "wine"
+        },
+        {
+          "keyword": "turnkey bottling line solution",
+          "related": ["complete beverage production line", "water treatment and filling system", "packaging line integration"],
+          "page": "/solutions"
+        },
+        {
+          "keyword": "barreled water filling machine",
+          "related": ["5 gallon water filling line", "19L bottle filling equipment", "barrel water production"],
+          "page": "/products",
+          "category": "barrel"
+        }
+      ]
+    },
+    "tier3_longtail": {
+      "description": "Long-tail keywords - specific capacity/models, lower competition, high conversion",
+      "keywords": [
+        "2000 BPH water filling machine",
+        "6000 BPH bottling line",
+        "12000 BPH water filling machine",
+        "15000 BPH automatic bottling machine",
+        "5 gallon barreled water production line",
+        "10 liters large bottle water filling line",
+        "4 in 1 mineral water filling machine",
+        "72 heads carbonated soft drink bottling machine",
+        "semi-automatic PET blow molding machine",
+        "electronic valve filling machine",
+        "2 in 1 champagne sparkling wine filling machine",
+        "edible oil filling production line",
+        "daily chemical product filling machine"
+      ]
+    }
+  },
+  "pages": {
+    "/": {
+      "title": "Beverage Filling Machine Manufacturer | 2000-12000 BPH Bottling Lines",
+      "description": "Professional beverage filling machine manufacturer with 30+ years experience. Water, juice, carbonated drink, beer & wine bottling lines from 2000-12000 BPH. Turnkey solutions worldwide.",
+      "keywords": "beverage filling machine, bottling line equipment, small beverage machinery, water filling machine, juice bottling line",
+      "h1": "Professional Beverage Filling Machine Manufacturer",
+      "jsonLdType": "WebSite"
+    },
+    "/products": {
+      "title": "Beverage Filling Machines | Water, Juice, Beer & Carbonated Drink Equipment",
+      "description": "Browse our complete range of beverage filling machines: water bottling lines, juice fillers, carbonated drink equipment, beer bottling machines, can filling lines and capping systems. 2000-20000 BPH capacity.",
+      "keywords": "water filling machine, juice filling machine, carbonated beverage filling machine, beer filling machine, can filling machine, PET bottle filler",
+      "h1": "Beverage Filling Machines & Bottling Equipment",
+      "jsonLdType": "CollectionPage"
+    },
+    "/solutions": {
+      "title": "Turnkey Bottling Line Solutions | Complete Beverage Production Lines",
+      "description": "Complete turnkey bottling line solutions for water, juice, carbonated beverages, beer, wine, oil and daily chemical products. Engineering design, installation and after-sales service included.",
+      "keywords": "turnkey bottling line, beverage production line solution, water filling production line, complete packaging line, factory engineering design",
+      "h1": "Complete Beverage Production Line Solutions",
+      "jsonLdType": "CollectionPage"
+    },
+    "/video": {
+      "title": "Beverage Filling Machine Videos | Equipment Demonstrations & Factory Tours",
+      "description": "Watch video demonstrations of our beverage filling machines in operation: water bottling lines, juice fillers, carbonated drink equipment, beer bottling and canning lines.",
+      "keywords": "beverage filling machine video, bottling line demonstration, water filling machine operation, factory tour",
+      "h1": "Beverage Filling Machine Video Gallery",
+      "jsonLdType": "VideoGallery"
+    },
+    "/about": {
+      "title": "About Us | 30+ Years Beverage Machinery Manufacturing Experience",
+      "description": "Suzhou KIWL Machine Co., Ltd. - professional beverage filling machinery manufacturer with 30+ years experience. ISO certified, exported to 50+ countries including USA, UK, France and Japan.",
+      "keywords": "beverage machinery manufacturer, filling machine factory, ISO certified bottling equipment, China beverage equipment exporter",
+      "h1": "About Our Beverage Machinery Company",
+      "jsonLdType": "AboutPage"
+    },
+    "/news": {
+      "title": "Industry News | Beverage Filling Technology & Equipment Updates",
+      "description": "Latest news on beverage filling technology, bottling line innovations, new equipment launches and industry trends from a leading filling machine manufacturer.",
+      "keywords": "beverage filling industry news, bottling technology updates, filling machine innovations",
+      "h1": "Beverage Filling Industry News",
+      "jsonLdType": "Blog"
+    },
+    "/contact": {
+      "title": "Contact Us | Get a Beverage Filling Machine Quote",
+      "description": "Contact our beverage filling machine experts for a free quote. We provide consultation on bottling line capacity, equipment selection and turnkey project planning. Response within 24 hours.",
+      "keywords": "beverage filling machine quote, bottling line inquiry, filling equipment consultation, contact filling machine manufacturer",
+      "h1": "Contact Beverage Filling Machine Experts",
+      "jsonLdType": "ContactPage"
+    }
+  }
+}

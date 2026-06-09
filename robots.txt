@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://smallbeveragemachinery.com/sitemap.xml
+
+# Crawl-delay not needed for Google; avoid blocking assets
+Allow: /assets/
+Allow: /*.webp$
+Allow: /*.jpg$
+Allow: /bundle.js
